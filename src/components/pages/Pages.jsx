@@ -22,7 +22,7 @@ import Checkout from '../Checkout';
 const Pages = () => {
     return (
         <>
-            <Router>
+            <Router basename="/Grocery-ecom">
                 <Header />
                 <Routes>
                     <Route path="/" element={<Home />}></Route>
