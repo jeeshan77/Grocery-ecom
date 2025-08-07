@@ -9,7 +9,7 @@ const Bestseller = () => {
         <div className='mt-40'>
             <div className='lg:mx-20 '>
                 <h1 className='text-3xl md:text-5xl xl:text-6xl font-bold mx-auto text-center' style={{color: '#45595b'}}>Bestseller Products</h1>
-                <p className='mx-4 text-center mt-4 w-auto ' style={{color: '#45595b'}}>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                <p className='mx-4 text-center mt-4 w-auto ' style={{color: '#45595b'}}>From juicy fruits to crisp vegetables, these top picks are trusted by our happy customers for their unbeatable freshness and taste.</p>
                 <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3'>
                     {bsetseller.map((val) => {
                         return (

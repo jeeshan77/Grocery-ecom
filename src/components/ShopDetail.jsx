@@ -27,8 +27,8 @@ const ShopDetail = () => {
                                     <li className='fa fa-star' style={{color: '#ffb524'}}></li>
                                     <li className='fa fa-star' style={{color: '#45595b'}}></li>
                                 </ul>
-                                <p className='my-5' style={{color: '#45595b'}}>The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc</p>
-                                <p style={{color: '#45595b'}}>Susp endisse ultricies nisi vel quam suscipit. Sabertooth peacock flounder; chain pickerel hatchetfish, pencilfish snailfish</p>
+                                <p className='my-5' style={{color: '#45595b'}}>Crisp, green, and packed with nutrients — our farm-fresh broccoli is perfect for steaming, stir-frying, or tossing into your favorite salads. Grown without harmful chemicals, it's a powerhouse of vitamins, minerals, and fiber. Eat healthy, live green!</p>
+                                <p style={{color: '#45595b'}}>Whether you’re steaming, roasting, or stir-frying, its vibrant green florets and tender stalks cook beautifully and add a fresh crunch to any meal. Grown naturally without synthetic pesticides or GMOs, it's the perfect choice for clean, wholesome eating.</p>
                                 <div className='my-6'>
                                     <button className='bg-gray-100 rounded-full px-4 py-3'><i className='fa fa-minus'></i></button>
                                     <input className='w-16 text-center outline-none' type="text" value={4} />
@@ -53,8 +53,8 @@ const ShopDetail = () => {
                             </div>
                             <div id="default-styled-tab-content">
                                 <div className=" p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="styled-profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc. Susp endisse ultricies nisi vel quam suscipit</p>
-                                    <p className="text-sm text-gray-500 dark:text-gray-400">Sabertooth peacock flounder; chain pickerel hatchetfish, pencilfish snailfish filefish Antarctic icefish goldeye aholehole trumpetfish pilot fish airbreathing catfish, electric ray sweeper.</p>
+                                    <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Crisp, green, and packed with nutrients — our farm-fresh broccoli is perfect for steaming, stir-frying, or tossing into your favorite salads. Grown without harmful chemicals, it's a powerhouse of vitamins, minerals, and fiber. Eat healthy, live green!</p>
+                                    <p className="text-sm text-gray-500 dark:text-gray-400">Whether you’re steaming, roasting, or stir-frying, its vibrant green florets and tender stalks cook beautifully and add a fresh crunch to any meal. Grown naturally without synthetic pesticides or GMOs, it's the perfect choice for clean, wholesome eating.</p>
                                     <div className="relative overflow-x-auto my-4">
                                         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                                             <tbody>

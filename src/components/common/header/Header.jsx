@@ -11,13 +11,14 @@ const Header = () => {
             <div className='md:container md:mx-auto hidden lg:flex lg:justify-between text-white text-sm main p-4 top box-border'>
                 <div className='flex'>
                     <div>
-                        <span className='fas fa-map-marker-alt secondary pr-3 pl-2'></span>
-                        <span className='hover:cursor-pointer'>123 Street, New York</span>
+                        {/* <span className='fas fa-map-marker-alt secondary pr-3 pl-2'></span> */}
+                        {/* <span className='hover:cursor-pointer ml-12'>Fresh Choices for a Fresh World      |     Empowering the World with a Global Currency.</span> */}
+                        <span className='hover:cursor-pointer ml-12'>
+                            Fresh Choices for a Fresh World&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Empowering the World with a Global Currency.
+                        </span>
+
                     </div>
-                    <div>
-                        <span className="fas fa-envelope secondary pr-3 pl-4"></span>
-                        <span className='hover:cursor-pointer'>Email@Example.com</span>
-                    </div>
+
                 </div>
                 <div className='pr-4'>
                     <span className='hover:cursor-pointer hov transition'>Privacy Policy</span>
@@ -28,7 +29,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='md:container md:mx-auto flex justify-between m-6 sticky z-10'>
-                <div className='main-text text-3xl sm:text-4xl font-extrabold'><Link to='/'>Fruitables</Link></div>
+                <div className='main-text text-3xl sm:text-4xl font-extrabold'><Link to='/'>FreshRootz</Link></div>
                 <ul className={`xl:flex xl:justify-center xl:items-center relative ${bar ? 'bar-menu flex flex-col bg-white right-0 relative' : 'hidden xl:flex xl:flex-row'}`}>
                     <li className='px-4 text-gray-500 nav-hov'><Link to='/'>Home</Link></li>
                     <li className='px-4 text-gray-500 nav-hov'><Link to='/shop'>Shop</Link></li>
@@ -46,12 +47,12 @@ const Header = () => {
                     <div className={`xl:pl-20 xl:flex ${bar ? 'flex bg-white' : 'hidden'}`}>
                         <span className='fa fa-search main-text p-5 mr-2 mt-2 w-10 h-10 border search search-hov flex justify-center items-center hover:cursor-pointer'></span>
                         <Link to='/cart' className='fa fa-shopping-bag fa-2x main-text p-3 relative icon-hov'>
-                                <span className='absolute top-2 right-0 w-6 h-6 text-xs search flex justify-center items-center bord text-green-600'>{totalItems}</span>
+                            <span className='absolute top-2 right-0 w-6 h-6 text-xs search flex justify-center items-center bord text-green-600'>{totalItems}</span>
                         </Link>
                         <span className='fas fa-user fa-2x main-text p-3 icon-hov'></span>
                     </div>
                 </ul>
-                <i className='fa fa-bars xl:hidden bars py-1 px-4 text-xl hover:cursor-pointer' onClick={()=> setBar(!bar)}></i>
+                <i className='fa fa-bars xl:hidden bars py-1 px-4 text-xl hover:cursor-pointer' onClick={() => setBar(!bar)}></i>
             </div>
         </div>
     )
