@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Grocery-ecom/static/css/main.91447cb4.css",
+    "main.js": "/Grocery-ecom/static/js/main.a1b73d4e.js",
+    "static/media/cart-page-header-img.jpg": "/Grocery-ecom/static/media/cart-page-header-img.144b125fef5e5f43a332.jpg",
+    "static/media/hero-img.jpg": "/Grocery-ecom/static/media/hero-img.358b54f6112aa26ec54f.jpg",
+    "index.html": "/Grocery-ecom/index.html",
+    "main.91447cb4.css.map": "/Grocery-ecom/static/css/main.91447cb4.css.map",
+    "main.a1b73d4e.js.map": "/Grocery-ecom/static/js/main.a1b73d4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91447cb4.css",
+    "static/js/main.a1b73d4e.js"
+  ]
+}
